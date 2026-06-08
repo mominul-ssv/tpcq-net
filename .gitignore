@@ -1,6 +1,5 @@
 # Ignore data folder completely
-alpha-0/data/
-alpha-1/data/
+**/data/
 
 # Ignore Python cache files
 __pycache__/
