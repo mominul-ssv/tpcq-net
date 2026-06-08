@@ -1,0 +1,25 @@
+{
+  "variant": "commuting",
+  "best_acc": 0.54,
+  "circuit_counts": {
+    "local_fwd_train": 22500,
+    "global_fwd_train": 22500,
+    "local_fwd_val": 1800,
+    "global_fwd_val": 1800,
+    "local_bwd": 405000,
+    "global_bwd": 82500,
+    "fwd_total": 48600,
+    "bwd_total": 487500,
+    "grand_total": 536100,
+    "bwd_fwd_ratio": 10.030864197530864
+  },
+  "wall_time_s": 997.1261608600616,
+  "epochs": 3,
+  "dataset_mode": "subset",
+  "train_samples": 2500,
+  "val_samples": 200,
+  "n_qubits": 3,
+  "max_weight": 2,
+  "n_gate_params_g": 6,
+  "n_logical_params_g": 2
+}

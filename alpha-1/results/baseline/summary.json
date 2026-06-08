@@ -1,0 +1,24 @@
+{
+  "variant": "baseline",
+  "best_acc": 0.435,
+  "circuit_counts": {
+    "local_fwd_train": 22500,
+    "global_fwd_train": 22500,
+    "local_fwd_val": 1800,
+    "global_fwd_val": 1800,
+    "local_bwd": 405000,
+    "global_bwd": 810000,
+    "fwd_total": 48600,
+    "bwd_total": 1215000,
+    "grand_total": 1263600,
+    "bwd_fwd_ratio": 25.0
+  },
+  "wall_time_s": 2046.9751989841461,
+  "epochs": 3,
+  "dataset_mode": "subset",
+  "train_samples": 2500,
+  "val_samples": 200,
+  "n_qubits": 3,
+  "n_gate_params_g": 18,
+  "n_logical_params_g": 18
+}
